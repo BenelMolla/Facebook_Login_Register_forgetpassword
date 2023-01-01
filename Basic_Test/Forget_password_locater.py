@@ -1,0 +1,20 @@
+
+
+# Facebook ForgetPassword Paths
+ForgetPassword_lane = "//a[contains(text(),'Forgotten password?')]"
+FindYourAccount_ = "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/form[1]/div[1]/div[1]/div[1]/div[2]/h2[1]"
+Identify_email_Elementlane = "//input[@id='identify_email']"
+ForgetPassword_Valid_Email = "emailvalid@gmail.com"
+ForgetPassword_Invalid_Email = "ddsgfbcxdxc@gmail.com"
+Email_Search_Button = "//button[@id='did_submit']"
+IdentifyYourAccount_Elementlane = "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[2]/form[1]/div[1]/div[1]/div[1]/div[2]/h2[1]"
+MyAccount_Button = "//a[contains(text(),'This is my account')]"
+ResetYourPasswordPage_Elementlane = "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[2]/form[1]/div[1]/div[1]/div[1]/div[2]/h2[1]"
+SendCode_Via_messageButton_Elementlane = "//input[@id='send_email']"
+ResetPassword_continueButton = "//button[contains(text(),'Continue')]"
+EnterSecurityCodePage_Elementlane = "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[2]/form[1]/div[1]/div[1]/div[1]/div[2]/h2[1]"
+RecoveryCodeEntry_Elementlane = "//input[@id='recovery_code_entry']"
+NewPasswordPage_Elementlane = "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[2]/form[1]/div[1]/div[1]/div[1]/div[2]/h2[1]"
+NewPassword_ContinueButton = "//button[@id='btn_continue']"
+NoSearchResults_errorMessage = "//div[contains(text(),'No search results')]"
+Please_FillIn_OneField_ErrorMessage = "//div[contains(text(),'Please fill in at least one field')]"
